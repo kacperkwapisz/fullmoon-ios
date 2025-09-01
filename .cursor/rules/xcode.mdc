@@ -1,0 +1,11 @@
+---
+alwaysApply: true
+---
+
+# Rules to follow when working on Xcode projects and SwiftUI projects
+
+- NEVER RUN BUILDS OR ANY COMMANDS REGARDING THE PROJECT BUILD PROCESS.
+- Always output a summary of the files you added so they can be added manually in xcode for it to recognize them.
+- Remember, linter errors can persists, after you fix them, I and only I need to rebuild the project to see the changes and hopefully the linter errors will be fixed.
+
+THESE RULES HAVE TO BE FOLLOWED AT ALL TIMES.

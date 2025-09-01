@@ -1,0 +1,72 @@
+---
+alwaysApply: true
+---
+
+# Development Principles
+
+Follow these principles in **strict priority order** (lower numbers override higher ones).
+
+## 0. Standard Library
+
+- Use the standard library over external dependencies
+- If Go is involved, use straightforward Go idioms over clever abstractions
+- Single-purpose functions with clear names
+- Avoid complex interfaces when simple structs suffice
+
+## 1. KISS – Keep It Simple, Stupid
+
+- Prefer standard library over external dependencies
+- Use straightforward Go idioms over clever abstractions
+- Single-purpose functions with clear names
+- Avoid complex interfaces when simple structs suffice
+
+## 2. YAGNI – You Aren't Gonna Need It
+
+- Don't add configuration options until users request them
+- No generic solutions for single use cases
+- Implement features only when there's proven demand
+- Resist the urge to make everything configurable
+
+## 3. DRY – Don't Repeat Yourself (Selectively)
+
+- Abstract only when duplication becomes maintenance burden
+- Prefer small, focused functions over large shared utilities
+- Copy-paste is acceptable for 2-3 similar implementations
+- Shared code must be simpler than the duplication it replaces
+
+## 4. WET – Write Everything Twice
+
+- First implementation: solve the immediate problem
+- Second implementation: duplicate and adapt as needed
+- Third implementation: extract common patterns into shared code
+- Let abstractions emerge naturally from real usage patterns
+
+## 5. Test-Driven Design
+
+- Write tests that describe the expected behavior first
+- Implement minimal code to make tests pass
+- Focus on testing public interfaces, not implementation details
+- Use table-driven tests for multiple scenarios
+
+## If Go is involved, follow these rules:
+
+### Error Handling
+
+- Return errors explicitly, don't panic in library code
+- Wrap errors with context using `fmt.Errorf("context: %w", err)`
+- Handle errors at the appropriate level (don't pass everything up)
+- Use sentinel errors for expected error conditions
+
+### Code Organization
+
+- Keep packages focused on single responsibilities
+- Use `internal/` for implementation details
+- Export only what external packages need
+- Prefer composition over inheritance patterns
+
+### CLI Best Practices
+
+- Use standard exit codes (0 for success, non-zero for errors)
+- Write user-friendly error messages to stderr
+- Support both flags and environment variables for configuration
+- Provide helpful usage text and examples

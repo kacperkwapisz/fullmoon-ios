@@ -14,26 +14,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		860E9CCE2CB055B000C5BB52 /* fullmoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fullmoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		860E9CCE2CB055B000C5BB52 /* moonrise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moonrise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		258729302D0785A700BB7B6F /* Exceptions for "fullmoon" folder in "fullmoon" target */ = {
+		258729302D0785A700BB7B6F /* Exceptions for "moonrise" folder in "moonrise" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 860E9CCD2CB055B000C5BB52 /* fullmoon */;
+			target = 860E9CCD2CB055B000C5BB52 /* moonrise */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		860E9CD02CB055B000C5BB52 /* fullmoon */ = {
+		860E9CD02CB055B000C5BB52 /* moonrise */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				258729302D0785A700BB7B6F /* Exceptions for "fullmoon" folder in "fullmoon" target */,
+				258729302D0785A700BB7B6F /* Exceptions for "moonrise" folder in "moonrise" target */,
 			);
-			path = fullmoon;
+			path = moonrise;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -56,7 +56,7 @@
 		860E9CC52CB055B000C5BB52 = {
 			isa = PBXGroup;
 			children = (
-				860E9CD02CB055B000C5BB52 /* fullmoon */,
+				860E9CD02CB055B000C5BB52 /* moonrise */,
 				869B975E2D0DD3EC0078DF5A /* Frameworks */,
 				860E9CCF2CB055B000C5BB52 /* Products */,
 			);
@@ -65,7 +65,7 @@
 		860E9CCF2CB055B000C5BB52 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				860E9CCE2CB055B000C5BB52 /* fullmoon.app */,
+				860E9CCE2CB055B000C5BB52 /* moonrise.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,9 +80,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		860E9CCD2CB055B000C5BB52 /* fullmoon */ = {
+		860E9CCD2CB055B000C5BB52 /* moonrise */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 860E9CDF2CB055B100C5BB52 /* Build configuration list for PBXNativeTarget "fullmoon" */;
+			buildConfigurationList = 860E9CDF2CB055B100C5BB52 /* Build configuration list for PBXNativeTarget "moonrise" */;
 			buildPhases = (
 				860E9CCA2CB055B000C5BB52 /* Sources */,
 				860E9CCB2CB055B000C5BB52 /* Frameworks */,
@@ -93,9 +93,9 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				860E9CD02CB055B000C5BB52 /* fullmoon */,
+				860E9CD02CB055B000C5BB52 /* moonrise */,
 			);
-			name = fullmoon;
+			name = moonrise;
 			packageProductDependencies = (
 				860F26A32CBC31D6004E8D40 /* MarkdownUI */,
 				869B97612D0DD46B0078DF5A /* MLXLMCommon */,
@@ -103,7 +103,7 @@
 				25F645522D4E7A6F0049EFBE /* Transformers */,
 			);
 			productName = fullmoon;
-			productReference = 860E9CCE2CB055B000C5BB52 /* fullmoon.app */;
+			productReference = 860E9CCE2CB055B000C5BB52 /* moonrise.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -121,7 +121,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 860E9CC92CB055B000C5BB52 /* Build configuration list for PBXProject "fullmoon" */;
+			buildConfigurationList = 860E9CC92CB055B000C5BB52 /* Build configuration list for PBXProject "moonrise" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -140,7 +140,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				860E9CCD2CB055B000C5BB52 /* fullmoon */,
+				860E9CCD2CB055B000C5BB52 /* moonrise */,
 			);
 		};
 /* End PBXProject section */
@@ -285,16 +285,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = fullmoon/fullmoon.entitlements;
+				CODE_SIGN_ENTITLEMENTS = moonrise/moonrise.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_ASSET_PATHS = "\"fullmoon/Preview Content\"";
-				DEVELOPMENT_TEAM = 2VT466P8NK;
+				DEVELOPMENT_ASSET_PATHS = "\"moonrise/Preview Content\"";
+				DEVELOPMENT_TEAM = 8SP9G4G36N;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = fullmoon/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = fullmoon;
+				INFOPLIST_FILE = moonrise/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = moonrise;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -311,7 +311,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = me.mainfra.fullmoon;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.kapi.moonrise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = NO;
 				SDKROOT = auto;
@@ -331,16 +331,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = fullmoon/fullmoon.entitlements;
+				CODE_SIGN_ENTITLEMENTS = moonrise/moonrise.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_ASSET_PATHS = "\"fullmoon/Preview Content\"";
-				DEVELOPMENT_TEAM = 2VT466P8NK;
+				DEVELOPMENT_ASSET_PATHS = "\"moonrise/Preview Content\"";
+				DEVELOPMENT_TEAM = 8SP9G4G36N;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = fullmoon/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = fullmoon;
+				INFOPLIST_FILE = moonrise/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = moonrise;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -357,7 +357,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = me.mainfra.fullmoon;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.kapi.moonrise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = NO;
 				SDKROOT = auto;
@@ -375,7 +375,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		860E9CC92CB055B000C5BB52 /* Build configuration list for PBXProject "fullmoon" */ = {
+		860E9CC92CB055B000C5BB52 /* Build configuration list for PBXProject "moonrise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				860E9CDD2CB055B100C5BB52 /* Debug */,
@@ -384,7 +384,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		860E9CDF2CB055B100C5BB52 /* Build configuration list for PBXNativeTarget "fullmoon" */ = {
+		860E9CDF2CB055B100C5BB52 /* Build configuration list for PBXNativeTarget "moonrise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				860E9CE02CB055B100C5BB52 /* Debug */,
